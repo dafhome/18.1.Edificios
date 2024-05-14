@@ -71,8 +71,6 @@ public class Metodos {
             System.out.print("Adosada (si/no): ");
             Casa casa = (Casa) array.get(index);
             casa.setEsAdosada(validar(scan));
-
-
         }
         else if(opcion==3) {
             System.out.print("Seguridad (si/no): ");
