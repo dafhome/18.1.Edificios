@@ -51,7 +51,6 @@ public class Metodos {
             array.get(index).setTipo("trastero");
         }
 
-
         System.out.print("Metros: ");
         array.get(index).setSuperficie(validarInt(scan));
         System.out.print("Ubicacion: ");
@@ -72,6 +71,7 @@ public class Metodos {
             Casa casa = (Casa) array.get(index);
             casa.setEsAdosada(validar(scan));
         }
+
         else if(opcion==3) {
             System.out.print("Seguridad (si/no): ");
             Trastero trastero = (Trastero) array.get(index);
