@@ -1,4 +1,4 @@
-public class Edificios {
+public abstract class Edificios {
     
     protected int superficie;
     protected double precio;
